@@ -51,6 +51,7 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 .section h2,.cta-band h2{font-size:clamp(34px,4vw,50px)}
 .section-heading p,.contact-intro{color:var(--muted);font-size:18px}
 .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+#services .container{width:min(1400px,92%)}
 .service-card{padding:30px;border:1px solid var(--line);border-radius:13px;background:#fff}
 .service-card.featured{border-color:#a9bfff;box-shadow:0 18px 45px rgba(24,39,75,.09)}
 .service-number{font-size:12px;font-weight:800;color:var(--blue);letter-spacing:.12em}
