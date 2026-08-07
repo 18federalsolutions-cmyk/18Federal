@@ -93,6 +93,7 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 @media (max-width:520px){
   .site-header .btn-sm{display:none}
    .nav-wrap{height:58px}
+  .hero{padding-top:38px}
   .hero h1{font-size:46px}
   .hero-sub{font-size:17px}
   .section{padding:70px 0}
