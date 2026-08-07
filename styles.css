@@ -96,6 +96,8 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
   .hero h1{font-size:46px}
   .hero-sub{font-size:17px}
   .section{padding:70px 0}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .hero-actions .btn{width:100%}
 }
 .thank-you-section { display: none; }
 .thank-you-section:target { display: block; }
