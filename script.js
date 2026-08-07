@@ -19,9 +19,9 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
     });
 
     if (response.ok) {
-      form.reset();
-      document.getElementById('thank-you').hidden = false;
-      document.getElementById('thank-you').scrollIntoView({ behavior: 'smooth' });
+  form.reset();
+  window.location.hash = 'thank-you';
+  document.getElementById('thank-you').scrollIntoView({ behavior: 'smooth' });
     } else {
       note.textContent = 'There was a problem sending your request. Please try again.';
     }
