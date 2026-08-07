@@ -95,3 +95,5 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
   .hero-sub{font-size:17px}
   .section{padding:70px 0}
 }
+.thank-you-section { display: none; }
+.thank-you-section:target { display: block; }
