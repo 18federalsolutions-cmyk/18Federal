@@ -32,4 +32,8 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
     button.textContent = 'Start the Conversation';
   }
 });
-
+if (window.location.hash === '#thank-you') {
+  const thankYou = document.getElementById('thank-you');
+  thankYou.hidden = false;
+  thankYou.scrollIntoView();
+}
