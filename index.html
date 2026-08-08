@@ -210,7 +210,44 @@
       <p>© <span id="year"></span> 18Federal. All rights reserved.</p>
     </div>
   </footer>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://18federal.com/#organization",
+      "name": "18Federal",
+      "url": "https://18federal.com/",
+      "description": "Federal capture management, proposal development, competitive analysis, price-to-win, and pursuit support for government contractors.",
+      "telephone": "+1-210-639-1849",
+      "email": "pursuits@18federal.com",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Federal Capture and Proposal Support",
+      "provider": {
+        "@id": "https://18federal.com/#organization"
+      },
+      "serviceType": [
+        "Federal Capture Management",
+        "Federal Proposal Development",
+        "Price-to-Win Support",
+        "Competitive Intelligence",
+        "Federal Pursuit Support"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    }
+  ]
+}
+</script>
   <script src="script.js"></script>
 </body>
 </html>
