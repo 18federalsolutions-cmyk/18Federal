@@ -84,7 +84,9 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 .cta-band h2{max-width:760px}
 .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}
 .contact-details{margin-top:32px;display:grid;gap:18px}
-.contact-details div{padding:16px 0;border-top:1px solid var(--line)}
+.contact-details > div{display:grid;grid-template-columns:38px 1fr;grid-template-rows:auto auto;column-gap:12px;align-items:center;padding:16px 0;border-top:1px solid var(--line)}
+.contact-icon{grid-column:1;grid-row:1 / span 2;width:32px;height:32px;padding:7px;border-radius:9px;color:var(--blue);background:rgba(31,94,255,.08);stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.contact-details small,.contact-details strong{grid-column:2}
 .contact-details small{display:block;font-size:11px;letter-spacing:.12em;color:var(--muted);margin-bottom:4px}
 .contact-details a{color:var(--navy);text-decoration:none;transition:color .2s}
 .contact-details a:hover{color:var(--blue)}
