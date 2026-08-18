@@ -45,6 +45,8 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 .panel-step strong{display:block;font-size:17px}
 .panel-step small{display:block;color:#9eabc0;margin-top:2px}
 .panel-step.final{border-bottom:0}
+.hero-graphic{display:flex;align-items:center;justify-content:center}
+.hero-graphic img{display:block;width:100%;height:auto;max-height:620px;filter:drop-shadow(0 20px 50px rgba(0,0,0,.18))}
 .section{padding:92px 0}
 .section.alt{background:var(--soft)}
 .section-heading{max-width:960px;margin-bottom:44px}
