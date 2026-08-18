@@ -55,8 +55,8 @@
       <circle cx="30" cy="30" r="13" fill="#2d6fff" fill-opacity=".18" stroke="#6d99ff" stroke-opacity=".7"/>
       <circle cx="30" cy="27" r="4" fill="#8db0ff"/><path d="M22 38c2-6 14-6 16 0" fill="none" stroke="#8db0ff" stroke-width="2" stroke-linecap="round"/>
       <text x="52" y="34" fill="#ffffff" font-size="17" font-weight="700">Customer</text>
-      <text x="22" y="68" fill="#9eadc3" font-size="13">Mission • priorities</text>
-      <text x="22" y="86" fill="#9eadc3" font-size="13">buying signals</text>
+      <text x="22" y="68" fill="#c4cfe0" font-size="14">Mission • priorities</text>
+      <text x="22" y="87" fill="#c4cfe0" font-size="14">buying signals</text>
     </g>
 
     <g transform="translate(496 190)">
@@ -64,8 +64,8 @@
       <circle cx="30" cy="30" r="13" fill="#2d6fff" fill-opacity=".18" stroke="#6d99ff" stroke-opacity=".7"/>
       <path d="M23 34h14M25 30h10M28 26h4" stroke="#8db0ff" stroke-width="2" stroke-linecap="round"/>
       <text x="52" y="34" fill="#ffffff" font-size="17" font-weight="700">Competition</text>
-      <text x="22" y="68" fill="#9eadc3" font-size="13">Incumbent • rivals</text>
-      <text x="22" y="86" fill="#9eadc3" font-size="13">likely positioning</text>
+      <text x="22" y="68" fill="#c4cfe0" font-size="14">Incumbent • rivals</text>
+      <text x="22" y="87" fill="#c4cfe0" font-size="14">likely positioning</text>
     </g>
 
     <g transform="translate(64 420)">
@@ -73,8 +73,8 @@
       <circle cx="30" cy="30" r="13" fill="#2d6fff" fill-opacity=".18" stroke="#6d99ff" stroke-opacity=".7"/>
       <path d="m23 31 5 5 10-12" fill="none" stroke="#8db0ff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="52" y="34" fill="#ffffff" font-size="17" font-weight="700">Solution</text>
-      <text x="22" y="68" fill="#9eadc3" font-size="13">Discriminators • proof</text>
-      <text x="22" y="86" fill="#9eadc3" font-size="13">delivery confidence</text>
+      <text x="22" y="68" fill="#c4cfe0" font-size="14">Discriminators • proof</text>
+      <text x="22" y="87" fill="#c4cfe0" font-size="14">delivery confidence</text>
     </g>
 
     <g transform="translate(496 420)">
@@ -82,8 +82,8 @@
       <circle cx="30" cy="30" r="13" fill="#2d6fff" fill-opacity=".18" stroke="#6d99ff" stroke-opacity=".7"/>
       <text x="30" y="35" text-anchor="middle" fill="#8db0ff" font-size="15" font-weight="700">$</text>
       <text x="52" y="34" fill="#ffffff" font-size="17" font-weight="700">Price</text>
-      <text x="22" y="68" fill="#9eadc3" font-size="13">Price-to-win • risk</text>
-      <text x="22" y="86" fill="#9eadc3" font-size="13">competitive range</text>
+      <text x="22" y="68" fill="#c4cfe0" font-size="14">Price-to-win • risk</text>
+      <text x="22" y="87" fill="#c4cfe0" font-size="14">competitive range</text>
     </g>
 
     <circle cx="360" cy="354" r="138" fill="url(#halo)"/>
