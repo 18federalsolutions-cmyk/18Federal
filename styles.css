@@ -86,6 +86,8 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 .contact-details{margin-top:32px;display:grid;gap:18px}
 .contact-details div{padding:16px 0;border-top:1px solid var(--line)}
 .contact-details small{display:block;font-size:11px;letter-spacing:.12em;color:var(--muted);margin-bottom:4px}
+.contact-details a{color:var(--navy);text-decoration:none;transition:color .2s}
+.contact-details a:hover{color:var(--blue)}
 .contact-form{background:var(--soft);padding:24px;border-radius:14px;border:1px solid var(--line)}
 .contact-form label{display:block;font-size:13px;font-weight:700;margin-bottom:10px}
 .contact-form input,.contact-form textarea{width:100%;margin-top:5px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
