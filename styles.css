@@ -173,3 +173,4 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 @media(max-width:520px){.product-name-mark img{width:min(100%,240px)}.detail-name-mark{max-width:300px}}
 
 .products-section .product-card-copy{padding-top:34px;padding-bottom:34px}
+.products-section .product-demo{margin-top:18px}
