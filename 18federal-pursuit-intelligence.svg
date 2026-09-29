@@ -35,9 +35,6 @@
     </marker>
   </defs>
 
-  <rect x="18" y="18" width="684" height="724" rx="30" fill="url(#panel)" stroke="#9ab7e5" stroke-opacity=".22" filter="url(#shadow)"/>
-  <rect x="18" y="18" width="684" height="724" rx="30" fill="url(#grid)"/>
-
   <g font-family="Inter, Arial, sans-serif">
     <text x="64" y="75" fill="#8ea4c3" font-size="13" font-weight="700" letter-spacing="3">PURSUIT INTELLIGENCE</text>
     <text x="64" y="110" fill="#ffffff" font-size="25" font-weight="700">Turn insight into a coordinated win strategy.</text>
