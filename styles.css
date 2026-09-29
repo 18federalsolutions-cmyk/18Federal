@@ -165,3 +165,9 @@ body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f
 .product-cta{padding:58px 0;background:#123063;color:#fff}.product-cta .container{display:flex;align-items:center;justify-content:space-between;gap:24px}.product-cta h2{margin:0;font-size:clamp(30px,3vw,42px)}
 @media(max-width:860px){.product-grid,.product-hero .container,.detail-grid{grid-template-columns:1fr}.product-hero{padding:60px 0}.product-cta .container{flex-direction:column;align-items:flex-start}}
 @media(max-width:520px){.product-card-copy{padding:22px}.product-preview{margin:12px 12px 0;padding:12px}.preview-top span{display:none}.nav-wrap{gap:12px}.nav{display:flex;gap:12px;margin-left:auto}.nav a{font-size:13px}.nav a[href="#about"],.nav a[href="../#about"]{display:none}}
+
+.product-name-mark{margin:0 0 14px!important;line-height:0!important}
+.product-name-mark img{display:block;width:min(100%,275px);height:auto}
+.detail-name-mark{display:inline-block;max-width:min(100%,390px);background:#fff;border-radius:10px;padding:10px 14px;margin-bottom:24px}
+.detail-name-mark img{display:block;width:100%;height:auto}
+@media(max-width:520px){.product-name-mark img{width:min(100%,240px)}.detail-name-mark{max-width:300px}}
