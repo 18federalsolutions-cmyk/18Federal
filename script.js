@@ -37,3 +37,8 @@ if (window.location.hash === '#thank-you') {
   thankYou.hidden = false;
   thankYou.scrollIntoView();
 }
+
+const selectedInterest = new URLSearchParams(window.location.search).get('interest');
+if (selectedInterest && ['Pursuit Support', 'Software Demo', 'Strategic Partnership'].includes(selectedInterest)) {
+  document.querySelector('select[name="interest"]').value = selectedInterest;
+}
