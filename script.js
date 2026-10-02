@@ -40,5 +40,27 @@ if (window.location.hash === '#thank-you') {
 
 const selectedInterest = new URLSearchParams(window.location.search).get('interest');
 if (selectedInterest && ['Pursuit Support', 'Software Demo', 'Strategic Partnership'].includes(selectedInterest)) {
-  document.querySelector('select[name="interest"]').value = selectedInterest;
+  document.querySelector('select[name="interest"]').value = selectedInterest === 'Software Demo' ? 'Software Invitation' : selectedInterest;
 }
+
+const menuButton = document.querySelector('.menu-toggle');
+const navigation = document.getElementById('primary-nav');
+function closeMenu() { navigation.classList.remove('open'); menuButton.setAttribute('aria-expanded', 'false'); }
+menuButton.addEventListener('click', () => { const open = navigation.classList.toggle('open'); menuButton.setAttribute('aria-expanded', String(open)); });
+navigation.addEventListener('click', e => { if (e.target.closest('a')) closeMenu(); });
+menuButton.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+const navLinks = [...navigation.querySelectorAll('a')];
+const observedSections = [...document.querySelectorAll('main > section[id]')];
+function updateActiveNavigation() {
+  let active = '';
+  for (const section of observedSections) if (section.getBoundingClientRect().top <= 130) active = section.id;
+  for (const link of navLinks) { if (link.hash === '#' + active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current'); }
+}
+window.addEventListener('scroll', updateActiveNavigation, { passive: true });
+window.addEventListener('hashchange', updateActiveNavigation);
+updateActiveNavigation();
+
+document.querySelectorAll('.invitation-trigger').forEach(link => link.addEventListener('click', () => {
+  document.querySelector('#leadForm select[name="interest"]').value = 'Software Invitation';
+  document.getElementById('contact-product').value = link.dataset.product;
+}));
